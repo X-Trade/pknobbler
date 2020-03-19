@@ -26,4 +26,4 @@ for framenum in range(frames):
     endangle2 = startangle + (anglestep * framenum)
     canvas.arc(bounds, startangle, endangle2, fill=foreground, width=10)
 
-filmstrip.save('test.png', 'PNG')
+filmstrip.save('output/test.png', 'PNG')

@@ -37,4 +37,4 @@ for framenum2 in range(frames):
         print([framenum2, framenum, bounds, startangle2, endangle2])
         canvas.arc(bounds, startangle3, endangle3, fill=foreground, width=10)
 
-filmstrip.save('test.png', 'PNG')
+filmstrip.save('output/test2.png', 'PNG')
